@@ -1,0 +1,4 @@
+googlemaps
+requests<=2.11.1
+pyowm
+notify2
