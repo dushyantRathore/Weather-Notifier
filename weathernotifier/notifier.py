@@ -1,6 +1,6 @@
 import notify2
-from .location import get_location
-from .weather import get_weather
+from location import get_location
+from weather import get_weather
 
 
 def notify():
