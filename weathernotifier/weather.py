@@ -17,6 +17,10 @@ def get_weather(place):
     l.append(w.get_wind())
     l.append(w.get_humidity())
     l.append(w.get_pressure())
+    l.append(w.get_clouds())
+    l.append(w.get_status())
+    l.append(w.get_sunrise_time('iso'))
+    l.append(w.get_sunset_time('iso'))
 
     return l
 
