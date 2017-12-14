@@ -1,13 +1,18 @@
 import pyowm
+from location import get_location
 
 
-def get_weather(place):
+def get_weather(location):
+
+    # location = get_location()
+    #
+    # print location
 
     owm = pyowm.OWM('a4c44b228e720ea728b757f3aa754c06') # API Key
-    observation = owm.weather_at_place(place)
+    observation = owm.weather_at_place(location)
 
     dic ={}
-    dic["Place"] = place
+    dic["Place"] = location
 
     w = observation.get_weather()
 
@@ -22,8 +27,10 @@ def get_weather(place):
     l.append(w.get_sunrise_time('iso'))
     l.append(w.get_sunset_time('iso'))
 
+    # print l
+
     return l
 
-
+# get_weather()
 
 

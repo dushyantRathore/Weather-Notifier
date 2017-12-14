@@ -10,7 +10,7 @@ def notify():
     place = get_location()
     resp = get_weather(place)
 
-    # print resp
+    print resp
 
     result = ''
     result += "Place : " + str(resp[0]["Place"])
