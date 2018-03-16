@@ -1,4 +1,4 @@
-googlemaps
-requests<=2.11.1
+requests==2.18.2
 pyowm
 notify2
+reverse_geocoder

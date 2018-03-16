@@ -4,7 +4,7 @@ from setuptools import setup
 
 setup(
     name='weather-notifier',
-    version='1.0.1',
+    version='1.0.9',
     description='Shows weather details',
     long_description='This python package initiates a notification tool displaying the weather details of user\'s location',
     author='Dushyant Rathore',
@@ -24,14 +24,16 @@ setup(
         'Programming Language :: Python :: 2',
         'Programming Language :: Python :: 2.6',
         'Programming Language :: Python :: 2.7',
+        'Programming Language :: Python :: 3',
+        'Programming Language :: Python :: 3.5'
     ],
     keywords = "Weather notification tool",
     author_email='dushyant.bgs@gmail.com',
     url='https://github.com/dushyantRathore/Weather-Notifier',
     packages=['weathernotifier'],
     install_requires=[
-        "googlemaps",
-        "requests<=2.11.1",
+        "reverse_geocoder",
+        "requests==2.18.2",
         "pyowm",
         "notify2"
     ],
