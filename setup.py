@@ -4,7 +4,7 @@ from setuptools import setup
 
 setup(
     name='weather-notify',
-    version='1.0.0',
+    version='1.0.1',
     description='Shows weather details',
     long_description='This python package initiates a notification tool displaying the weather details of user\'s location',
     author='Dushyant Rathore',
@@ -24,8 +24,6 @@ setup(
         'Programming Language :: Python :: 2',
         'Programming Language :: Python :: 2.6',
         'Programming Language :: Python :: 2.7',
-        'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.5'
     ],
     keywords = "Weather notification tool",
     author_email='dushyant.bgs@gmail.com',
