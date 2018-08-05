@@ -9,7 +9,12 @@ location.
 3. Run 'weathernotifier' on the terminal
 <br><br>
 
+**Installation from pypi**
+
+`pip install weather-notify`
+
 **Requirements**
+* python 2
 * requests==2.18.2
 * pyowm
 * notify2
