@@ -3,8 +3,8 @@
 from setuptools import setup
 
 setup(
-    name='weather-notifier',
-    version='1.1',
+    name='weather-notify',
+    version='1.0.0',
     description='Shows weather details',
     long_description='This python package initiates a notification tool displaying the weather details of user\'s location',
     author='Dushyant Rathore',
