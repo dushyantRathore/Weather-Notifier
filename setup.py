@@ -31,7 +31,7 @@ setup(
     packages=['weathernotifier'],
     install_requires=[
         "reverse_geocoder",
-        "requests==2.18.2",
+        "requests==2.20.0",
         "pyowm",
         "notify2"
     ],

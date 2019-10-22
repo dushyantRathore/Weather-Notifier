@@ -1,4 +1,4 @@
-requests==2.18.2
+requests==2.20.0
 pyowm
 notify2
 reverse_geocoder
